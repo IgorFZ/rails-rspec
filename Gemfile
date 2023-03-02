@@ -15,10 +15,13 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
 gem "haml-rails", "~> 2.0"
 gem "html2haml"
+gem 'net-http'
+gem 'uri', '0.10.0'
 
 group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
   gem 'rspec-rails', '~> 6.0.0'
+  gem 'shoulda-matchers', '~> 5.0'
 end
 
 group :development do
