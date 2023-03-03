@@ -21,6 +21,7 @@ gem 'uri', '0.10.0'
 group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
   gem 'rspec-rails', '~> 6.0.0'
+  gem 'rails-controller-testing'
   gem 'shoulda-matchers', '~> 5.0'
 end
 
