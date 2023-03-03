@@ -17,6 +17,7 @@ gem "haml-rails", "~> 2.0"
 gem "html2haml"
 gem 'net-http'
 gem 'uri', '0.10.0'
+gem 'simple_form'
 
 group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
